@@ -25,8 +25,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # grape api
 gem 'grape'
 
+# json template engine
+gem 'rabl'
+gem 'oj'
+
 # db mysql
 gem 'mysql2'
+gem 'mailboxer', :git => 'git://github.com/div/mailboxer.git', :branch => 'rails42-foreigner'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
