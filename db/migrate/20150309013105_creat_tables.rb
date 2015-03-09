@@ -12,7 +12,6 @@ class CreatTables < ActiveRecord::Migration
                             :options => "ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;"
                         } do |t|
       t.integer :kind_id
-      t.string :name, :null => false
       t.column :position, :point, :null => false
       t.timestamps :null => false
     end unless table_exists?(:points)

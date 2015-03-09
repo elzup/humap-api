@@ -24,7 +24,7 @@ module API
         end
       end
 
-      mount V1::Point
+      mount V1::Points
     end
 
 
